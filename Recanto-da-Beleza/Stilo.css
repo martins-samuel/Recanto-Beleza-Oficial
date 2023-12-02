@@ -1,0 +1,73 @@
+/*Título*/
+.titulo{
+    font-family: Brush script MT;
+    font-size: 50px;
+    text-align: center;
+}
+/*Cabeçalho*/
+header {
+    width:100%;
+    height: 60px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #c8a2c8;
+}
+.menu {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+   
+}
+li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    position: center;
+}
+.dropdown {
+    min-width: 130px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4)0px 25px 50px -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s[ ease-in-out];
+    background-color: #c8a2c8;
+}
+li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+.dropdown a {
+    font-size: 14px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+/* Corpo da página*/
+
+.Fotos{
+    text-align: center;
+}
+.titulo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+/*Tabela de serviços*/
+.tabelinha{
+    margin: auto;
+}
+

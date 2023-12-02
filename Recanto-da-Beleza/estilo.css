@@ -1,0 +1,60 @@
+/*css da página de cadastrto */   
+header{
+    background-color: #c8a2c8;
+    max-width:1600px;
+    min-height: 80px;
+    padding-top: 0 ;
+    margin-top: 0%;
+    border-bottom: 100px;
+}
+.silhueta{text-align: left;
+}
+.menu{
+    list-style: none;
+    border: 1px solid #c8a2c8;
+    float: right;
+}
+.menu li{
+    position:relative;
+    float: right;
+    border-left: 1px #c8a2c8;
+}
+<style>
+    
+    body{
+        font-family:brush script MT;
+    }
+
+    .cadastro{
+        background-color: rgb(255, 246, 252);
+        position: absolute;
+        padding: 70px;
+        top: 30%;
+        left: 42%;
+        border-radius: 15px;
+        font-size: large;
+    }
+
+    input{
+        padding: 15px;
+        outline: none;
+    }
+
+.enviar{
+    padding: 15px;
+    width: 100%;
+    background-color: #c8a2c8;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-select{
+outline: none;
+padding-top: 15px ;
+padding-bottom: 15px;
+padding-right: 59px;
+padding-left: 11px;
+}
+
+</style>

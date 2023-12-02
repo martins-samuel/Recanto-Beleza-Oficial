@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recanto Da Beleza</title>
+    <link rel="shortcut icon" type="image/png" href="imagens/lixador-de-unha.png">
+    <link rel="stylesheet" type="text/css" href="estilo2.css">
+</head>
+ 
+<body bgcolor="#c8a2c8">
+    <!-- usei "class" para estilizar, usando as classes pais e filhas -->
+    <!-- essa é a parte do nome principal da pg -->
+    <header class="cabeçalho">
+        <a class="titulo" href="Home.html"><h1>Recanto da Beleza</h1></a>
+        <nav class="cabeçalho-menu">
+            <a class="cabeçalho-menu-item" href="https://web.whatsapp.com/" target="_blank"><img src="imagens/icone-whats.png"></a>
+            <a class="cabeçalho-menu-item" href="https://www.instagram.com" target="_blank"><img src="imagens/icone-insta.png" alt=""></a>
+            <a class="cabeçalho-menu-item" href="https://www.facebook.com" target="_blank"><img src="imagens/icone-face.png" alt=""></a>
+        </nav>
+    </header>
+
+    <!-- aqui são as imagens e textos, dividi as imagens em duas sessões e utilizei o flex box para estilizar no css -->
+    <main class="conteudo">
+        
+        <section class="trecho-1">
+            <div class="trecho-1-texto">
+                <h2 class="trecho-1-texto-titulo"><strong>Microagulhamento</strong>, o que é?</h2>        
+                <h2 class="trecho-1-texto-subtitulo">O microagulhamento é um procedimento estético que por meio de várias agulhas aumenta a vasodilatação e estimula a produção de colágeno.</h2>
+            </div>
+        <img class="imagem-1" src="imagens/fundo.jpg">
+    </section>
+
+    <section class="trecho-2">
+        <div class="trecho-2-texto">
+            <h2 class="trecho-2-texto-titulo"><strong>Benefícios</strong> do microagulhamento</h2>
+            <h2 class="trecho-2-texto-subtitulo">Indicado para diminuir manchas, rugas, das linhas de expressão, promovendo o rejuvenescimento facial e clareamento da pele.</h2>
+        </div>
+        <img class="imagem-2" src="imagens/imagem-2.webp">
+    </section>
+    </main>
+
+    <!-- botão de agenda no fim da pagina -->
+    <footer class="botão-consulta">
+        <center><a href="Home.html"><button class="botão-consulta-texto">AGENDE SUA CONSULTA!</button></a></center>
+    </footer>
+  <!--Botão do zapzap-->
+  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+  <script>
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"556140028922","welcomeMessage":"Olá, gostaria de agendar sua consulta?","zIndex":999999,"btnColorScheme":"light"};
+    var wa_widgetSetting = {"title":"Recanto da Beleza","subTitle":"Online","headerBackgroundColor":"#6dff38","headerColorScheme":"dark","greetingText":"Olá!\nGostaria de agendar sua consulta?","ctaText":"Iniciar conversa","btnColor":"#1A1A1A","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+    window.onload = () => {
+      _waEmbed(wa_btnSetting, wa_widgetSetting);
+    };
+  </script>
+
+<!--Final do zapzap-->
+</body>
+
+
+</html>

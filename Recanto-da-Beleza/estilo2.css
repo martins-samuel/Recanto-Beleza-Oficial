@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 200px;
+}
+
+.titulo {
+    font-family: Brush Script mt;
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;   
+}
+
+.conteudo {
+    border-top: 5px solid antiquewhite;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.trecho-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.trecho-1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.trecho-1-texto-titulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.trecho-1-texto-subtitulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.imagem-1{
+    height: 300px;
+    width: 500px;
+    
+}
+
+.trecho-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.trecho-2-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.trecho-2-texto-titulo{
+    border-top: solid antiquewhite;
+    font-family: 'Righteous', sans-serif;
+    font-size: 35px;
+    color: antiquewhite;
+    padding: 15px;
+}
+
+.trecho-2-texto-subtitulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.imagem-2{
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+}
+
+.botão-consulta{
+    padding: 25px;
+    background-color: black;
+    border-top: solid antiquewhite;
+}
+
+.botão-consulta-texto{
+    padding: 12px;
+    font-size: 23px;
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+}
+
+.botão-consulta-texto:hover{
+    background-color: rgb(54,54,54);
+}
